@@ -1,0 +1,66 @@
+{
+  "name": "Yash Pawar",
+  "dob": "09 March 2004",
+  "education": [
+    {
+      "degree": "B.Tech in Electronics and Telecommunication",
+      "institution": "VIT Pune (SPPU)",
+      "duration": "Aug 2024 – Present",
+      "coursework": [
+        "Object Oriented Software Development",
+        "Artificial Intelligence and Machine Learning",
+        "Database Design",
+        "Applied Distributed Systems"
+      ]
+    },
+    {
+      "degree": "Diploma in Computer Engineering",
+      "institution": "Government Polytechnic, Hingoli (MSBTE Mumbai)",
+      "duration": "Aug 2020 – May 2023",
+      "coursework": [
+        "Data Structures",
+        "Computer Networking",
+        "Architecture",
+        "Operating Systems"
+      ]
+    }
+  ],
+  "skills": {
+    "programming": ["C/C++", "Java", "JavaScript", "Python", "HTML", "CSS", "Bootstrap", "PHP", "ESP32 Arduino"],
+    "web_services": ["Flask", "FastAPI", "RESTful APIs", "Apache Tomcat", "Firebase SDK", "OpenAI API", "Streamlit"],
+    "tools": ["SQL Server", "MongoDB", "OpenCV", "PDO", "NLP", "Linux", "ML Models", "IoT", "RoboFlow", "YOLO", "GitHub"],
+    "designing": ["Adobe Photoshop", "Canva", "CapCut"]
+  },
+  "experience": [
+    {
+      "role": "Researcher",
+      "org": "X-ray Segmentation & Landmark Detection",
+      "duration": "Feb 2025 – Present",
+      "summary": "Developing MRI & X-ray segmentation models for robotic/IoT-assisted surgeries."
+    },
+    {
+      "role": "Database Coordinator",
+      "org": "Vishwa Shauryam, VIT Pune",
+      "duration": "Oct 2024 – Present",
+      "summary": "Managed registrations and real-time data accuracy for large-scale events."
+    },
+    {
+      "role": "Researcher",
+      "org": "IoT Smart Farming with AI & ML",
+      "duration": "May 2025",
+      "summary": "Built IoT-based smart farming system with AI/ML for irrigation and yield prediction."
+    },
+    {
+      "role": "Computer Technician",
+      "org": "Grampanchayat Amdapur",
+      "duration": "Jun 2023 – 2024",
+      "summary": "Maintained rural governance IT systems and promoted digital empowerment."
+    }
+  ],
+  "projects": [
+    {"name": "X-ray Segmentation", "tech": ["Python", "YOLOv8", "OpenCV", "TensorFlow"]},
+    {"name": "Heart Attack & Diabetes Prediction", "tech": ["Python", "Flask", "Random Forest", "Decision Tree"]},
+    {"name": "IoT Smart Farming", "tech": ["ESP32", "Arduino", "Flask", "Firebase", "LoRa", "ML"]},
+    {"name": "Freshcery – Grocery Store", "tech": ["PHP", "MySQL", "JavaScript", "Bootstrap"]}
+  ]
+}
