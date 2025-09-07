@@ -1,7 +1,7 @@
 # Yash Pawar
 **Computer Engineering Student & Full-Stack Developer**
 
-📧 yash.pawar@email.com | 📱 +91 XXXXX XXXXX | 📍 Pune, Maharashtra, India
+📧 yash.pawar@email.com | 📱 +919657143027 | 📍 Pune, Maharashtra, India
 
 ---
 

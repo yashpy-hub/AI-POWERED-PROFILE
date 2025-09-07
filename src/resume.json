@@ -1,6 +1,10 @@
 {
   "name": "Yash Pawar",
   "dob": "09 March 2004",
+   "mobile": "+91 9657143027",
+   "Email" : "yashpawar.py@gmail.com",
+   "yavi" : "Hello",
+   "email" : "yash.pawar24@vit.edu",	
   "education": [
     {
       "degree": "B.Tech in Electronics and Telecommunication",
@@ -32,6 +36,12 @@
     "designing": ["Adobe Photoshop", "Canva", "CapCut"]
   },
   "experience": [
+ {
+      "role": "AI Engineer Intern ",
+      "org": "Emergexians",
+      "duration": "Aug 2025 – Present",
+      "summary": "Building agentic AI, training ML models, developing web applications, and learning."
+    },
     {
       "role": "Researcher",
       "org": "X-ray Segmentation & Landmark Detection",

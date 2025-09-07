@@ -8,7 +8,7 @@ export async function askResumeBot(question) {
   const context = JSON.stringify(resume, null, 2);
 
   const prompt = `
-  You are a chatbot assistant that answers based ONLY on Yash Pawar's resume.
+  You are a chatbot assistant that answers based ONLY on Yash Pawar's Profile.
 
   Resume JSON:
   ${context}

@@ -58,7 +58,7 @@ const Chatbot = () => {
 
   const chatbotSizeClasses = isMaximized
     ? "w-[calc(100vw-2rem)] max-w-4xl h-[calc(100vh-2rem)] max-h-4xl"
-    : "w-[calc(100vw-2rem)] max-w-sm h-[60vh] sm:h-[70vh] max-h-[40rem] sm:w-80";
+    : "w-[calc(100vw-2rem)] max-w-sm h-[70vh] sm:h-[500px] max-h-[40rem] sm:w-80";
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
@@ -86,8 +86,8 @@ const Chatbot = () => {
                   </Button>
                 </div>
               </CardHeader>
-              <CardContent className="flex-grow flex flex-col p-0">
-                <ScrollArea className="flex-grow p-4 border-t" ref={scrollAreaRef}>
+              <CardContent className="flex-grow flex flex-col p-0 min-h-0">
+                <ScrollArea className="h-full p-4 border-t overflow-y-auto" ref={scrollAreaRef}>
                   <div className="space-y-4">
                     {messages.map((msg, index) => (
                       <div key={index} className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
@@ -127,9 +127,10 @@ const Chatbot = () => {
 
       {!isOpen &&
         <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ delay: 0.3, duration: 0.3 }}
+          initial={{ scale: 0, y: 0 }}
+          animate={{ scale: 1, y: -10 }}
+          transition={{ duration: 1.5 }}
+          whileHover={{ scale: 1.1 }}
         >
           <Button onClick={() => setIsOpen(true)} className="w-16 h-16 rounded-full p-0 overflow-hidden shadow-lg">
             <img src={chatbotThumbnail} alt="Chatbot Thumbnail" className="w-full h-full object-cover" />
